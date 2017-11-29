@@ -1,0 +1,21 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#a { background: blue; }
+#b { background: darkgreen; }
+#c { background: yellow; }
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .md-6 {width: 50%;}
+    .md-3 {width: 25%;}
+}
+@media only screen and (max-width:600px) {
+    /* For mobile device: */
+    .sm-6 {width: 50%;}
+    .sm-12 {width: 100%;}
+}
